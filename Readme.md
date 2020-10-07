@@ -38,7 +38,7 @@ Figure 1.  The architecture of our Face Hallucination Relativistic Average Gener
 
 ![ICASSP_RIDB](https://github.com/KennethXiang/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/blob/master/icassp_RIDB.png)
 
-​	**Figure 2. ** **Top**: Dense Nested Block(DNB) stacked by multiple RIDB. **Bottom**: the architecture of our proposed Residual in Internel Dense Block (RIDB).
+**Figure 2.** **Top**: Dense Nested Block(DNB) stacked by multiple RIDB. **Bottom**: the architecture of our proposed Residual in Internel Dense Block (RIDB).
 
 
 
