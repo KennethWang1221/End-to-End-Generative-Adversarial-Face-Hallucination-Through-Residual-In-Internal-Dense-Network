@@ -64,7 +64,7 @@ The quantitative comparison among state-of-the-art methods were demonstrated in 
 
 #### Quantitative Comparison
 
-![截屏2020-10-07上午9.43.53](/Users/wangxiang/Desktop/截屏2020-10-07上午9.43.53.png)
+![quantitative_compar.png](https://github.com/KennethXiang/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/blob/master/quantitative_compar.png)
 
 **Table1. Quantitative comparison on CelebA dataset for scale factor x8 in terms of average PSNR(db) and SSIM. Numerical  in bold are indicated the best evaluation results among state-of-the-art methods.**
 
