@@ -36,7 +36,7 @@ Figure 1.  The architecture of our Face Hallucination Relativistic Average Gener
 
 
 
-![ICASSP_RIDB](/Users/wangxiang/Downloads/ICASSP_RIDB.png)
+![ICASSP_RIDB](https://github.com/KennethXiang/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/blob/master/icassp_RIDB.png)
 
 ​	**Figure 2. ** **Top**: Dense Nested Block(DNB) stacked by multiple RIDB. **Bottom**: the architecture of our proposed Residual in Internel Dense Block (RIDB).
 
@@ -76,13 +76,13 @@ Qualitative results were depicted in Fig5. and Fig6.
 
 
 
-![icassp_4x_result](/Users/wangxiang/Downloads/icassp_4x_result.png)
+![icassp_4x_result](https://github.com/KennethXiang/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/blob/master/icassp_4x_result.png)
 
 **Fig5. Qualitative comparison of 4x super-resolved face images on CelebA dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
 
 
 
-![icassp_8x_result](/Users/wangxiang/Downloads/icassp_8x_result.png)
+![icassp_8x_result](https://github.com/KennethXiang/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/blob/master/icassp_8x_result.png)
 
 **Fig6. Qualitative comparison of 8x super-resolved face images on CelebA dataset. Column: (a) HR ground truth; (b) Input LR; (c) Bicubic (d) SRGAN (e) ESRGAN (f) Our method.** 
 
