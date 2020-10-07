@@ -8,7 +8,7 @@ Face Hallucination has been a highly attractive computer vision research in rece
 
 ## Proposed Method ##
 
-In this paper, we prpose a novel GAN-based FH method, Face Hallucination based on Relativistic Average Generative Adversarial Network (FH-RaGAN).  
+In this paper, we prpose a novel GAN-based FH method, Face Hallucination based on Relativistic Average Generative Adversarial Network (GAFH-RIDN).  
 
 In summary, the contributions of this paper are mainly in five aspects:
 
