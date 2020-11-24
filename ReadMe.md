@@ -4,7 +4,7 @@
 
 Face hallucination has been a highly attractive computer vision research topic in recent years. It is still a particularly challenging task since the human face has a complex and delicate structures. In this paper, we propose the novel network structure, namely end-to-end Generative Adversarial Face Hallucination through Residual in Internal Dense Network (GAFH-RIDN), to hallucinate an unaligned tiny (32x32 pixels) low-resolution face image to its 8x (256x256 pixels) high-resolution counterpart. We propose a new architecture called Residual in Internal Dense Block (RIDB) for the generator and exploit an improved discriminator, Relativistic average Discriminator (RaD). In GAFH-RIDN, the generator is used to generate visually pleasant hallucinated face images, while the improved discriminator aims to evaluate how much input images are realistic. With continual adversarial learning, GAFH-RIDN is able to hallucinate perceptually plausible face images. Extensive experiments on large face datasets demonstrate that the proposed method significantly outperforms other state-of-the-art methods.
 
-![ICASSP_Overview_4](/Users/wangxiang/Code/Github_Repository/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/ICASSP_Overview_4.png)
+![ICASSP_Overview_4](ICASSP_Overview_4.png)
 
 
 
@@ -32,7 +32,7 @@ In this section, we will first describe the proposed architecture and demonstrat
 
 
 
-![ICASSP_RIDB](/Users/wangxiang/Code/Github_Repository/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/ICASSP_RIDB.png)
+![ICASSP_RIDB](icassp_RIDB.png)
 
 **Fig. 2.  Top**: Dense Nested Block (DNB) composed of multiple RIDBs. **Bottom:** The architecture of our proposed Residual in Internal Dense Block (RIDB).
 
@@ -129,7 +129,7 @@ We conducted experiments on the large-scale face image dataset, CelebA. It consi
 
 In the experiments, we compared the proposed method with the state-of-the-art methods [TDN,VDSR,CBN,SRGAN,FSRFCH,ESRGAN] qualitatively and quantitatively.
 
-![ICASSP_Table1](/Users/wangxiang/Code/Github_Repository/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/ICASSP_Table1.png)
+![ICASSP_Table1](ICASSP_Table1.png)
 
 **Table 1.** Quantitative comparison on CelebA dataset for scaling factor 8x, in terms of average PSNR(dB) and SSIM. Numbers in bold are the best evaluation results among state-of-the-art methods.
 
@@ -139,7 +139,7 @@ In the experiments, we compared the proposed method with the state-of-the-art me
 
 Qualitative results among these methods are shown in Fig. 3. We observe that the bicubic interpolation produces heavy blur and fails to generate clear textures. For SRGAN, it outputs noticeable artifacts around facial components, especially in the eyes, nose, and mouth regions. In particular, ESRGAN, produces unrealistic textures and involves severe ghosting artifacts. In contrast, it is obvious that our proposed method is capable of producing visually pleasant and authentic HF images. 
 
-![icassp_8x_result](/Users/wangxiang/Code/Github_Repository/End-to-End-Generative-Adversarial-Face-Hallucination-Through-Residual-In-Internal-Dense-Network/icassp_8x_result.png)
+![icassp_8x_result](icassp_8x_result.png)
 
 **Fig. 3. ** Comparison of visual results with state-of-the-art methods on scaling factor 8x. (a) HR images, (b) LR inputs, (c) Bicubic interpolation, (d) Results of SRGAN, (e) Results of ESRGAN, and (f) Our results
 
