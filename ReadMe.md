@@ -1,5 +1,11 @@
 # End-to-End Generative Adversarial Face Hallucination Through Residual in Internel Dense Network
 
+**Import Note**
+
+This work has been accepted by to the IEEE 29th European Signal Processing Conference (EUSIPCO 2021). Copyright may be transferred without notice, after which this version may no longer be accessible.
+
+Wang, Xiang, et al. "End-to-End Generative Adversarial Face Hallucination Through Residual In Internal Dense Network." *2021 29th European Signal Processing Conference (EUSIPCO)*. IEEE, 2021.
+
 ### Abstract
 
 Face hallucination has been a highly attractive computer vision research topic in recent years. It is still a particularly challenging task since the human face has a complex and delicate structures. In this paper, we propose the novel network structure, namely end-to-end Generative Adversarial Face Hallucination through Residual in Internal Dense Network (GAFH-RIDN), to hallucinate an unaligned tiny (32x32 pixels) low-resolution face image to its 8x (256x256 pixels) high-resolution counterpart. We propose a new architecture called Residual in Internal Dense Block (RIDB) for the generator and exploit an improved discriminator, Relativistic average Discriminator (RaD). In GAFH-RIDN, the generator is used to generate visually pleasant hallucinated face images, while the improved discriminator aims to evaluate how much input images are realistic. With continual adversarial learning, GAFH-RIDN is able to hallucinate perceptually plausible face images. Extensive experiments on large face datasets demonstrate that the proposed method significantly outperforms other state-of-the-art methods.
